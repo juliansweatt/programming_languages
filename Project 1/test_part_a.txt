@@ -1,0 +1,7 @@
+Here are a few words to test part a of Project one.
+
+	Here
+are
+
+some
+	more 		words. 

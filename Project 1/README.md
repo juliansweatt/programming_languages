@@ -12,6 +12,14 @@
     Prints the number of vowels and consonants in a file from standard input.  
 * [Part D](./part_d.l)  
     Prints the number of positive, negative, and real numbers in a file from standard input.  
+* [Part A Tests](./test_part_a.txt)  
+    Provided test file used to test the functionality of [Part A](./part_a.l).
+* [Part B Tests](./test_part_b.txt)  
+    Provided test file used to test the functionality of [Part B](./part_b.l).
+* [Part C Tests](./test_part_c.txt)  
+    Provided test file used to test the functionality of [Part C](./part_c.l).
+* [Part D Tests](./test_part_d.txt)  
+    Provided test file used to test the functionality of [Part D](./part_d.l).
 
 ## Usage
 ### Compile
