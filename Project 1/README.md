@@ -1,8 +1,17 @@
-# Project 1
-**Course:** COP4020 Programming Languages  
-**Author:** Julian Sweatt  
-**Instructor:** Dr. Shayok Chakraborty  
+# Project 1 - Basic LEX
 ---
+
+## Contents
+* [Project Specifications](./project1.pdf)  
+    Project specifications and requirements.  
+* [Part A](./part_a.l)  
+    Prints the number of words in a file from standard input.  
+* [Part B](./part_b.l)  
+    Prints the longest word in a file and its length from standard input.  
+* [Part C](./part_c.l)  
+    Prints the number of vowels and consonants in a file from standard input.  
+* [Part D](./part_d.l)  
+    Prints the number of positive, negative, and real numbers in a file from standard input.  
 
 ## Usage
 ### Compile
@@ -26,16 +35,6 @@ For example, to use the `test_part_a.txt` file as a test file, run:
 ```
 ./a.out < test_part_a.txt
 ```
-
-## Contents
-* [Part A](./part_a.l)  
-    Prints the number of words in a file from standard input.
-* [Part B](./part_b.l)  
-    Prints the longest word in a file and its length from standard input.
-* [Part C](./part_c.l)  
-    Prints the number of vowels and consonants in a file from standard input.
-* [Part D](./part_d.l)  
-    Prints the number of positive, negative, and real numbers in a file from standard input.
 
 ## Remarks
 * In [Part A](./part_a.l), a word is considered a series of alphabetical characters (uppercase or lowercase) separated by non-alphabetical characters.  
