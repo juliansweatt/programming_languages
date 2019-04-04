@@ -13,15 +13,14 @@
 )
 
 ; ------------------------------------------------------------------------------
-
 ; Part C: Check if an item a exists in list
-(define checklist
-; TODO: Define function here
-
+(define (checklist target lst)
+    (cond
+        ((member target lst) #t)                            ;Check if target is a member of the list, return true if it is
+        (else #f))                                          ;Return false if member is not found
 )
 
 ; ------------------------------------------------------------------------------
-
 ; Part D:
 (define mergelist
 ; TODO: Define function here
