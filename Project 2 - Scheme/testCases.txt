@@ -1,12 +1,30 @@
 ; Reverse List Test Cases
-(reverselist '(5 11 22 3))
+(reverselist '(5 11 22 3))                                              ; Small Integer Reverse
+(reverselist '(1 3 5 7 9 11 13 15 17 19 21))                            ; In Order Integer Reverse
+(reverselist '(a b c d e f g h i j k l m n o p q r s t u v w x y z))    ; Character Reverse
+(reverselist '(worked it order correct the in is this if))              ; String Reverse
+(reverselist '(hello world))                                            ; Small List Reverse
+(reverselist '())                                                       ; Empty Reverse
+(reverselist '(0))                                                      ; Single Element Reverse
 
 ; Insert Test Cases
-(insert 6 '(1 4 7 12 19))
+(insert 6 '(1 4 7 12 19))                                               ; Middle Insert
+(insert 1 '())                                                          ; Empty Insert
+(insert 1 '(2 3 4))                                                     ; Begining Insert
+(insert 5 '(2 3 4))                                                     ; Ending Insert
 
 ; Checklist Test Cases
-(checklist 3 '(6 22 3 7 8))
-(checklist 9 '(6 22 3 7 8))
+(checklist 3 '(6 22 3 7 8))                                             ; Check Present
+(checklist 9 '(6 22 3 7 8))                                             ; Check Not Present
+(checklist 1 '())                                                       ; Check Empty List
+(checklist 'a '(6 22 3 7 8))                                            ; Check Mistype
 
 ; Mergelist Test Cases
-(mergelist '(1 3 5 7) '(2 4 6 8))
+(mergelist '(1 3 5 7) '(2 4 6 8))                                       ; Merged Sort
+(mergelist '(1 2 3 4) '(5 6 7 8))                                       ; Ascending Split
+(mergelist '(5 6 7 8) '(1 2 3 4))                                       ; Complete Split
+(mergelist '() '(1 2 3 4))                                              ; Merge With Empty Set
+(mergelist '() '())                                                     ; Double Empty Set
+(mergelist '(1 2) '(1 2))                                               ; Identical Sets
+(mergelist '(1 5 700 996) '(0 1 5 921 922))                             ; Lacking Predictable Pattern
+(mergelist '(100 200 300 400 500 600 700 800 900 1000) '(150 250 350 450 550 650 750 850 950)) ; Stress Test
