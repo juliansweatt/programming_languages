@@ -22,8 +22,6 @@
 
 ; ------------------------------------------------------------------------------
 ; Part D:
-(define mergelist
-; TODO: Define function here
-
+(define (mergelist lst1 lst2)
+    (sort (append lst1 lst2) <)                             ;Merge lists by appending & re-sort merged list
 )
-
