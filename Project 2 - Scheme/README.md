@@ -13,5 +13,3 @@
 
 ## Usage
 `scheme --load proj2.scm < testCases.txt > sampleOut.txt`
-
-## Remarks
