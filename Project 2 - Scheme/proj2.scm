@@ -8,9 +8,8 @@
 
 ; ------------------------------------------------------------------------------
 ; Part B: Insert integer into sorted list
-(define insert
-; TODO: Define function here
-
+(define (insert newnum lst)
+    (sort(append lst (list newnum)) <)                      ;Append to end of list, resort ascending list
 )
 
 ; ------------------------------------------------------------------------------
