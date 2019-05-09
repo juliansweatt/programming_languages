@@ -2,7 +2,7 @@
 This repository contains computer organization implementation projects made in the COP4020 course by [Dr. Shayok Chakraborty](http://shayokch.com) at Florida State University.
 
 # Projects
-**Project 1** - Lex
+**Project 1** - Lex  
 **Project 1** - Scheme (Functional Programming)
 
 # Academic Honesty & Appropriate Use
